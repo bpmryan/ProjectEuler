@@ -15,7 +15,7 @@ public class Dinh5 {
     // Method to check if the number is less than the last
     // Save the smaller number
 
-    // Better idea:
+    // Quicker idea:
     // Apply the prime factorization method
     // Use all primes from 1-20
     // Find highest power of each prime <= 20
