@@ -1,20 +1,19 @@
 public class Dinh4 {
+    /*
+     * A palindromic number reads the same both ways.
+     * The largest palindrome made from the product of two 2-digit numbers is 9009 =
+     * 91 * 99
+     * Find the largest palindrome made from the product of two 3-digit numbers.
+     * 
+     * Solution: 906609
+     */
+
+    // Create 2 random 3-digit numbers and check if they generate a palindrome
+    // number
+    // 2 loops that generate two 3-digit numbers
+    // Check the product if its reverse is the exact same number
 
     public static void main(String[] args) {
-        /*
-         * A palindromic number reads the same both ways.
-         * The largest palindrome made from the product of two 2-digit numbers is 9009 =
-         * 91 * 99
-         * Find the largest palindrome made from the product of two 3-digit numbers.
-         * 
-         * Solution: 906609
-         */
-
-        // Create 2 random 3-digit numbers and check if they generate a palindrome
-        // number
-        // 2 loops that generate two 3-digit numbers
-        // Check the product if its reverse is the exact same number
-
         int finalPal = 0;
 
         // first number
@@ -53,7 +52,7 @@ public class Dinh4 {
         while (currentTemp > 0) {
             // reads the last digit of currentTemp
             int digit = currentTemp % 10;
-            // Constructs currentTemp in reverse 
+            // Constructs currentTemp in reverse
             reversedTemp = reversedTemp * 10 + digit;
             // counter to remove each digit from currentTemp to end loop
             currentTemp /= 10;
