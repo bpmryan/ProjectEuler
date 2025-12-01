@@ -12,7 +12,7 @@ public class Dinh6 {
      * Find the difference between the sum of squares of the first one hundred
      * natural numbers and the square of the sum.
      * 
-     * Solution:
+     * Solution: 25164150
      */
     public static void main(String[] args) {
         // Loop to find the square of 1-100 and get the sum of it = sumLoop
