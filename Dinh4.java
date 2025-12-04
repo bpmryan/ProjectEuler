@@ -5,8 +5,6 @@ public class Dinh4 {
      * The largest palindrome made from the product of two 2-digit numbers is 9009 =
      * 91 * 99
      * Find the largest palindrome made from the product of two 3-digit numbers.
-     * 
-     * Solution: 906609
      */
 
     // Create 2 random 3-digit numbers and check if they generate a palindrome
