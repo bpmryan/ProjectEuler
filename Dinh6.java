@@ -1,3 +1,4 @@
+// 25164150
 public class Dinh6 {
     /*
      * The sum of the squares of the first ten natural numbers is,
